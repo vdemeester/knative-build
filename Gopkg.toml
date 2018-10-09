@@ -18,19 +18,19 @@ required = [
 
 [[constraint]]
   name = "k8s.io/api"
-  version = "kubernetes-1.11.3"
+  version = "kubernetes-1.12.1"
 
 [[constraint]]
   name = "k8s.io/apimachinery"
-  version = "kubernetes-1.11.3"
+  version = "kubernetes-1.12.1"
 
 [[constraint]]
   name = "k8s.io/code-generator"
-  version = "kubernetes-1.11.3"
+  version = "kubernetes-1.12.1"
 
 [[constraint]]
   name = "k8s.io/client-go"
-  version = "kubernetes-1.11.3"
+  version = "kubernetes-1.12.1"
 
 [[override]]
   name = "github.com/json-iterator/go"
@@ -47,7 +47,7 @@ required = [
 [[constraint]]
   name = "github.com/knative/pkg"
   # HEAD as of 2018-10-09
-  revision = "c3fc92c416b9043b5c5b375b6e1115a9ae93d9d2"
+  revision = "497edb5d25383e35b572fca0f6e1208668e690a6"
   source = "github.com/vdemeester/pkg"
 
 [prune]
